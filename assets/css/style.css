@@ -38,17 +38,26 @@ a:hover {
 }
 
 .card-header, .modal-header {
-    background-color: #ff1654;
+  /* background-color: #ff1654; */
+  /* background-color: #6392D1; */
+  background: linear-gradient(to right, #88B7E5, #6392d1);
+}
+
+.contact-body {
+  /* background: linear-gradient(to right, #247ba0, #b2dbbf, #70c1b3); */
+  background-color: #DBCAB8;
 }
 
 .jumbo-text {
   font-size: 60px;
   color: #ffffff;
-  text-shadow: 3px 3px 3px #ff1654;
+  /* text-shadow: 3px 3px 3px #ff1654; */
+  text-shadow: 3px 3px 3px #6392d1;
 }
 
 .port-card-body {
-    background-color: #ff1654;
+    /* background-color: #ff1654; */
+    background-color: #6392d1;
     color: #ffffff;
     font-size: 20px;
     padding: 10px;
@@ -84,10 +93,6 @@ img {
     margin-bottom: 20px;
     background-color: transparent;
     border: none;
-}
-
-.contact-body {
-    background: linear-gradient(to right, #247ba0, #b2dbbf, #70c1b3);
 }
 
 .contact-link {
