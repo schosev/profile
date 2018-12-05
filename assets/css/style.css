@@ -13,8 +13,16 @@ body {
   background-size: cover;
 }
 
+.clear-fix {
+  clear: both;
+}
+
 .main-div {
     margin: 20px 0px;
+}
+
+hr {
+  background-color: #000;
 }
 
 .navbar {
@@ -141,11 +149,46 @@ display: block;
     margin-right: 20px;
 }
 
+.list-div {
+  margin: 0px 0px 16px 40px;
+}
+
+/* make list items responsive */
+ul{margin:0; padding:0;}
+
+#list1 {
+  -webkit-column-width: 150px;
+  -moz-column-width: 150px;
+  -o-column-width: 150px;
+  -ms-column-width: 150px;
+  column-width: 150px;
+}
+
+#list2 {
+  -webkit-column-width: 200px;
+  -moz-column-width: 200px;
+  -o-column-width: 200px;
+  -ms-column-width: 200px;
+  column-width: 200px;
+}
+
 @media (max-width: 480px) {
   #profile-image {
     float: none;
     display: block;
     margin-left: auto;
     margin-right: auto;
+  }
+}
+
+@media (min-width: 1158px) {
+  #top-hr {
+    display: none;
+  }
+}
+
+@media (min-width: 1249px) {
+  .top-pad {
+    margin-top: 16px;
   }
 }
